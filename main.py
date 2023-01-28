@@ -193,11 +193,142 @@
 # a= nitish("manish")
 # print(a)
 
-sum=0
-a=int(input())
-b=int(input())
-for i in range (a,b+1):
-     sum+=i
-print(sum)
+# sum=0
+# a=int(input())
+# b=int(input())
+# for i in range (a,b+1):
+#      sum+=i
+# print(sum)
+#
+# i =0
+# while i<=50:
+#      print("manish yadav")
+#      i= i +1
+# i =0
+# while i<=5:
+#      print("harry")
+#      i= i +1
+# i=0
+# fruites=["aam,emali,anaar,amrud"]
+# while i<len(fruites):
+#      print(fruites[i])
+#      i=i+1
+
+# name=["manish,nitish,ravi,navlesh"]
+# for i in name:
+#      print(i )
+# for i in range( 10):
+#      print(i)
+
+
+# for i in range(1,10):
+#      print(i)
+#
+# for i in range(1, 10,2):
+#      print(i)
+
+# for i in range(10):
+#      print(i)
+# else:
+#      print("aage ka conting khatam")
+
+
+# for i in range(10):
+#      print(i)
+#      if i==5:
+#           break
+
+# for i in range(10):# iska mtlb ye hai 5 ko chhhor kar savi number ko print kare ga
+#      if i==5:
+#        continue
+#      print(i)
+
+# i=4
+# if i>0:
+#      pass
+# while i>6:
+#      pass
+# print("manish")
+
+
+
+# name=["manish","nitish","ravi","navlesh"]
+# for i in name:
+#     print(i )
+# a=int(input("frist no="))
+# b=int(input("second no ="))
+# for i in range (a,b +1):
+#     if i %2!= 0:
+#        print(i,end=" ")
+# total=0
+# a=int(input("frist no="))
+# b=int(input("second no ="))
+# for i in range (a,b +1):
+#     if i %2!=0:
+#         total+=i
+#     print(total)
+# total=1
+# a=int(input("five ka fact"))
+# for i in range (1,a+1):
+#     total *=i
+# print(total)
+
+
+# a=int(input("any table"))
+# for i in range (1,10+1):
+#     print(f"{a} x {i} ={a*i}")
+
+# n=int(input())
+# if n %2==0:
+#    print(n+2)
+# elif n%2!=0:
+#     print(n+1)
+#
+#
+
+# n=int(input())
+# for i in range (1,n+1):
+#     if i%3==0 and i%5==0:
+#         print("fizz,buzz",end= " ")
+#     elif i %3==0:
+#        print("fizz",end= " ")
+#     elif i%5==0:
+#         print("buzz",end= " ")
+#
+#     elif i%3!=0 and i%5!=0:
+#         print(i,end= " ")
+#
+# s="manish"
+# a=len(s)-1
+# print(s[a])
+
+n=int(input())
+fizz = 0
+buzz  = 0
+fizz_buzz = 0
+
+for i in range (1,n+1):
+     if i%3==0 and i%5==0:
+        fizz_buzz += 1
+        print("fizz,buzz",end= " ")
+     elif i %3==0:
+         fizz+= 1
+         print("fizz",end= " ")
+     elif i%5==0:
+         buzz += 1
+         print("buzz",end= " ")
+
+     elif i%3!=0 and i%5!=0:
+         print(i,end= " ")
+print()
+print('fizz= ',fizz)
+print('buzz= ',buzz)
+print('fizz_buzz= ',fizz_buzz)
+         #print(i,end= " ")
+
+
+
+
+
 
 
